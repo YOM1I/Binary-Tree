@@ -6,7 +6,7 @@ using namespace std;
 
 
 int main() {
-    cout << "---------DOBRODOSLO--------" << endl;
+    cout << "---------DOBRODOSLI--------" << endl;
 
     cout << "Unesite naziv fajla Kontakata" << endl;
     string naziv_fajla;
@@ -134,111 +134,6 @@ int main() {
                 cout << "Nepoznata opcija" << endl;
         }
     }
-
-    //TESTOVI
-
-    /*Stablo* stablo = new Stablo("Contacts20.txt");
-    stablo->setN(5);
-    stablo->setX(2);
-    //stablo->ispis_stabla();
-    //cout << endl;
-    //stablo->brisanje_cvora("McIlrath", "Ilene");
-    //stablo->pretraga_prezime_i_ime("Patters", "Ellsworth");
-    //cout << endl;
-    //stablo->ispis_stabla();
-
-    /*stablo->tekstulne_poruke_istorija();
-
-    stablo->posalji_poruku("Gallichiccio", "Dolph", 2109248980);
-    stablo->printaj_niz();
-    stablo->posalji_poruku("Harragin", "Free", 2373182597);
-    stablo->printaj_niz();
-    stablo->posalji_poruku("Shergill", "Alla", 5092745597);
-    stablo->printaj_niz();
-    stablo->posalji_poruku("Gallichiccio", "Dolph", 2109248980);
-    stablo->printaj_niz();
-    stablo->posalji_poruku("Gallichiccio", "Dolph", 2109248980);
-    stablo->printaj_niz();
-    stablo->posalji_poruku("Gallichiccio", "Dolph", 2109248980);
-    stablo->printaj_niz();
-    stablo->posalji_poruku("Lidgett", "Kathe", 5872611720);
-    stablo->printaj_niz();
-    stablo->posalji_poruku("Lidgett", "Kathe", 5872611720);
-    stablo->printaj_niz();
-    stablo->posalji_poruku("Harragin", "Free", 2373182597);
-    stablo->printaj_niz();
-    stablo->posalji_poruku("McIlrath","Ilene",4951135640);
-    stablo->printaj_niz();
-    stablo->posalji_poruku("Gregh", "Sly", 2897967479);
-    stablo->printaj_niz();
-
-    stablo->tekstulne_poruke_istorija();
-
-    stablo->posalji_poruku("Gallichiccio", "Dolph");
-    stablo->printaj_niz();
-    stablo->posalji_poruku("Harragin", "Free");
-    stablo->printaj_niz();
-    stablo->posalji_poruku("Shergill", "Alla" );
-    stablo->printaj_niz();
-    stablo->posalji_poruku("Gallichiccio", "Dolph");
-    stablo->printaj_niz();
-    stablo->posalji_poruku("Gallichiccio", "Dolph");
-    stablo->printaj_niz();
-    stablo->posalji_poruku("Gallichiccio", "Dolph");
-    stablo->printaj_niz();
-    stablo->posalji_poruku("Lidgett", "Kathe");
-    stablo->printaj_niz();
-    stablo->posalji_poruku("Lidgett", "Kathe");
-    stablo->printaj_niz();
-    stablo->posalji_poruku("Harragin", "Free");
-    stablo->printaj_niz();
-    stablo->posalji_poruku("McIlrath","Ilene");
-    stablo->printaj_niz();
-    stablo->posalji_poruku("Gregh", "Sly");
-    stablo->printaj_niz();
-    stablo->posalji_poruku("McIlrath","Ilene");
-    stablo->printaj_niz();
-    */
-
-    /*stablo->slanje_sadrzaja("Shergill", "Alla");
-    stablo->ispis_liste();
-    stablo->slanje_sadrzaja("Harragin", "Free");
-    stablo->ispis_liste();
-    stablo->slanje_sadrzaja("McIlrath","Ilene");
-    stablo->ispis_liste();
-    stablo->slanje_sadrzaja("McIlrath","Ilene");
-    stablo->ispis_liste();
-    stablo->slanje_sadrzaja("McIlrath","Ilene");
-    stablo->ispis_liste();
-    stablo->slanje_sadrzaja("McIlrath","Ilene");
-    stablo->ispis_liste();
-    stablo->slanje_sadrzaja("McIlrath","Ilene");
-    stablo->ispis_liste();
-    stablo->slanje_sadrzaja("Gianni", "Herbert");
-    stablo->ispis_liste();
-    stablo->slanje_sadrzaja("Gallichiccio", "Dolph");
-    stablo->ispis_liste();
-    stablo->slanje_sadrzaja("Lidgett", "Kathe");
-    stablo->ispis_liste();
-    stablo->slanje_sadrzaja("Gallichiccio", "Dolph");
-    stablo->ispis_liste();
-    stablo->slanje_sadrzaja("Lidgett", "Kathe");
-    stablo->ispis_liste();
-    stablo->slanje_sadrzaja("Gallichiccio", "Dolph");
-    stablo->ispis_liste();
-    stablo->slanje_sadrzaja("Patters", "Ellsworth");
-    stablo->ispis_liste();
-    stablo->slanje_sadrzaja("Gallichiccio", "Dolph");
-
-
-    //stablo->slajnje_sadrzaja("McIlrath","Ilene",7782362373);
-
-    stablo->ispis_liste();
-    stablo->slanje_sadrzaja("Patters", "Ellsworth");
-    stablo->ispis_liste();
-
-
-    delete stablo;
-    */
+    
     return 0;
 }
